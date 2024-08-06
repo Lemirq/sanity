@@ -32,9 +32,10 @@ export default defineType({
       title: 'Order',
       type: 'number',
     }),
+    // visibility boolean
     defineField({
-      name: 'major',
-      title: 'Major',
+      name: 'invisible',
+      title: 'Invisible',
       type: 'boolean',
     }),
     defineField({
