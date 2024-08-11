@@ -28,12 +28,6 @@ export default defineType({
       type: 'string',
     }),
     defineField({
-      name: 'order',
-      title: 'Order',
-      type: 'number',
-    }),
-    // visibility boolean
-    defineField({
       name: 'invisible',
       title: 'Invisible',
       type: 'boolean',
